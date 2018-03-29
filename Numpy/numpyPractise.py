@@ -41,10 +41,10 @@ print c
 d=pda.DataFrame({
     "one":4,
     "two":[6,2,3],
-    "three":list(str(982))
+    "three":list( str(982))
 })
 
 print d
 print list(str(982)) #list类型里的元素必须是str类型，需要进行强制转换
-print d.head(2) #取默认前几行  
+print d.head(2) #取默认前几行
 
